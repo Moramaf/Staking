@@ -1,5 +1,5 @@
 import { ethers } from "hardhat";
-import { stakedTokenContractAddress, rewardTokenContractAddress } from "./config";
+import { stakedTokenContractAddress, rewardTokenContractAddress } from "../config";
 
 
 async function main() {

@@ -1,13 +1,11 @@
-//хранить всю необходимую информацию для тасок, деплоев и т.д. Адрес контракта, имя, символ, децималс и т.д.
-//import { ethers } from "hardhat";
+export { rewardTokenContractAddress, stakedTokenContractAddress, stakingContractAddress };
+export { uniswapAddress, firstERC20Address, secondERC20Address };
 
-const tokenName = "RewardToken";
-const tokenSymbol = "RT";
-const initialSupply = 1000000000000000;
-const decimals = 6;
+const rewardTokenContractAddress = "0x62a336D8304298f619a8B3b19ee6044964e27F9a"; //token symbol: RT
+const stakedTokenContractAddress = ""; //LP tokens
+const stakingContractAddress = "";
 
-let rewardTokenContractAddress = ""; //"0x429a4287C1fFB9F946e974Ab09245aC4290896e0";
-let stakedTokenContractAddress = "";
+const uniswapAddress = "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f";
 
-let stakingContractAddress = "";
-
+const firstERC20Address = "0x18426De83a89467B65E724f30c28A24923249505"; //token symbol: AT
+const secondERC20Address = "0xEC88Bd07c1dc4cade818EF0A3406553808A12778"; //token symbol: ECP
